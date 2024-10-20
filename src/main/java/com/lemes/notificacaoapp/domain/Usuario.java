@@ -1,6 +1,5 @@
-package com.lemes.notificacao.domain;
+package com.lemes.notificacaoapp.domain;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

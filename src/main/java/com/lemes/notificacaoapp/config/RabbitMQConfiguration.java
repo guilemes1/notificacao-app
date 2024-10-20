@@ -1,7 +1,6 @@
-package com.lemes.notificacao.config;
+package com.lemes.notificacaoapp.config;
 
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
-import org.springframework.amqp.support.converter.MessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,4 +1,4 @@
-package com.lemes.notificacao.constante;
+package com.lemes.notificacaoapp.constante;
 
 public class MensagemConstante {
 

@@ -1,4 +1,4 @@
-package com.lemes.notificacao.config;
+package com.lemes.notificacaoapp.config;
 
 import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;

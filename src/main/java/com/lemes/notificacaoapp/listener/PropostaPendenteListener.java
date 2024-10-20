@@ -1,8 +1,8 @@
-package com.lemes.notificacao.listener;
+package com.lemes.notificacaoapp.listener;
 
-import com.lemes.notificacao.constante.MensagemConstante;
-import com.lemes.notificacao.domain.Proposta;
-import com.lemes.notificacao.service.NotificacaoSnsService;
+import com.lemes.notificacaoapp.constante.MensagemConstante;
+import com.lemes.notificacaoapp.domain.Proposta;
+import com.lemes.notificacaoapp.service.NotificacaoSnsService;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

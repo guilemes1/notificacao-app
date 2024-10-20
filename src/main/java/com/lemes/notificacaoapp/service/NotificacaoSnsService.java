@@ -1,8 +1,7 @@
-package com.lemes.notificacao.service;
+package com.lemes.notificacaoapp.service;
 
 import com.amazonaws.services.sns.AmazonSNS;
 import com.amazonaws.services.sns.model.PublishRequest;
-import com.lemes.notificacao.domain.Proposta;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
