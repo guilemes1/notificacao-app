@@ -1,0 +1,19 @@
+version: "1.0"
+services:
+  notificacao-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: notificacao-app
+    networks:
+      - proposta-network
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_USER=guest
+      - RABBITMQ_PASS=guest
+      - AWS_ACCESS_KEY=your-access-key
+      - AWS_SECRET_KEY=your-secret-key
+
+networks:
+  proposta-network:
+    external: true
